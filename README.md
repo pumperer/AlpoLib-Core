@@ -10,18 +10,18 @@
   - Vector
   - Debug wrapper
 
-## FileSystem Helpers
+## [FileSystem Helpers](https://github.com/pumperer/AlpoLib-Core/tree/main/Runtime/FileSystem)
   - JAR file
   - LocalUri
   - Path Helper
 
-## Custom Types
+## [Custom Types](https://github.com/pumperer/AlpoLib-Core/tree/main/Runtime/Foundation/CustomType)
   - Custom Boolean
   - Custom Color
   - Custom DateTime
   - ReferenceCount Bool
 
-## Serialization Helpers
+## [Serialization Helpers](https://github.com/pumperer/AlpoLib-Core/tree/main/Runtime/Serialization)
   - BufferStream
   - VarInt
 
