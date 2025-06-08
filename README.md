@@ -1,14 +1,14 @@
 # AlpoLib Core
 
-## UnityEngine Extensions
-  - [Awaitable](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/AwaitableExtensions.cs)
-  - [Canvas](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/CanvasExtensions.cs)
-  - [Collection](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/CollectionExtensions.cs)
+## [UnityEngine Extensions](https://github.com/pumperer/AlpoLib-Core/tree/main/Runtime/Extensions)
+  - Awaitable
+  - Canvas
+  - Collection
   - GameObject
   - Transform
   - WebRequest
   - Vector
-  - Debug
+  - Debug wrapper
 
 ## FileSystem Helpers
   - JAR file
