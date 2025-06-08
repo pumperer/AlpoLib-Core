@@ -1,7 +1,7 @@
 # AlpoLib Core
 
 ## UnityEngine Extensions
-  - Awaitable
+  - [Awaitable](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/AwaitableExtensions.cs)
   - Canvas
   - Collection
   - GameObject
