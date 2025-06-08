@@ -19,5 +19,16 @@ namespace System.Collections.Generic
                 }
             }
         }
+        
+        private static readonly Random Random = new();
+        
+        public static void Shuffle<T>(this IList<T> values)
+        { 
+            for (var i = values.Count - 1; i > 0; i--) 
+            {
+                var k = Random.Next(i + 1);
+                (values[k], values[i]) = (values[i], values[k]);
+            }
+        }
     }
 }
