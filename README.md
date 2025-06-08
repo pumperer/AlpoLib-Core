@@ -2,8 +2,8 @@
 
 ## UnityEngine Extensions
   - [Awaitable](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/AwaitableExtensions.cs)
-  - Canvas
-  - Collection
+  - [Canvas](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/CanvasExtensions.cs)
+  - [Collection](https://github.com/pumperer/AlpoLib-Core/blob/main/Runtime/Extensions/CollectionExtensions.cs)
   - GameObject
   - Transform
   - WebRequest
