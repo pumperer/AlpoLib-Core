@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading;
 
 namespace UnityEngine
@@ -39,6 +40,29 @@ namespace UnityEngine
             }
         }
 
-        
+        public static async void Run(Func<Awaitable> awaitable, [CallerMemberName] string caller = "")
+        {
+            try
+            {
+                await awaitable();
+            }
+            catch (Exception e)
+            {
+                global::Debug.LogError($"An exception occurred in Run Awaitable : {caller}\n{e}");
+            }
+        }
+
+        public static async void Run<T>(Func<Awaitable<T>> awaitable, Action<T> onResult = null, [CallerMemberName] string caller = "")
+        {
+            try
+            {
+                var result = await awaitable();
+                onResult?.Invoke(result);
+            }
+            catch (Exception e)
+            {
+                global::Debug.LogError($"An exception occurred in Run Awaitable<T> : {caller}\n{e}");
+            }
+        }
     }
 }
